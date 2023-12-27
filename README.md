@@ -6,7 +6,7 @@ Build a movie recommendation system for users using the following methods:Demogr
 
 - Content Based Filtering: Recommend similar items based on a specific item. Based on the movie content (title, overview, genres, cast, keywords, tagline) to find its similarities with other movies. The general idea behind these recommendation systems is that if a person likes a particular item, he or she will also like a similar item. The results return the top 10 similar movies for each movie with the highest cosine similarity measure
 
-- Collaborative Filtering: The basic idea of this algorithm is to predict how much a user likes an item based on other users "similar" to the existing user. Determining the "similarity" between users can be based on the level of interest (rating) of these users with other items that the system has known in the past. The results return the top 5 movies with the highest ratings based on the aggregate ratings of similar users who have watched the movies.
+- Collaborative Filtering: The basic idea of this algorithm is to predict how much a user likes an item based on other users "similar" to the existing user. Determining the "similarity" between users can be based on the level of interest (rating) of these users with other items that the system has known in the past. Predict ratings for movies based on existing ratings of similar users then return the calculated top 5 movies with the highest ratings to recommend to each user.
 
 # Dataset
 - TMDB 5000 Movie Dataset
